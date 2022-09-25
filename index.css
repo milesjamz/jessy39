@@ -1,0 +1,22 @@
+.image-container {
+    height: 640;
+    width: 480;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-container {
+        height: 440;
+        width: 300;
+        cursor:pointer;
+    }
+    
+}
+
+.signature {
+    color:red;
+}
+
+html {
+    font-family: 'Futura';
+}
